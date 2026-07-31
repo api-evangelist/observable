@@ -1,0 +1,31 @@
+generated: '2026-07-20'
+method: searched
+source: https://observablehq.com/security
+standards:
+  - id: soc2-type2
+    conforms: true
+    evidence: "Observable states on its security page: SOC 2 Type 2 compliant, audited by Insight Assurance."
+  - id: tls-1.2-plus
+    conforms: true
+    evidence: Security page states HTTPS-only access with TLS 1.2+ encryption in transit.
+  - id: encryption-at-rest
+    conforms: true
+    evidence: Security page states secrets, tokens, and cached data are encrypted at rest.
+  - id: iso-27001
+    conforms: false
+    evidence: Not claimed on the security page.
+  - id: pci-dss
+    conforms: false
+    evidence: Not claimed on the security page.
+  - id: hipaa
+    conforms: false
+    evidence: Not claimed on the security page.
+  - id: fedramp
+    conforms: false
+    evidence: Not claimed on the security page.
+  - id: oauth2
+    conforms: false
+    evidence: No public OpenAPI or documented OAuth surface found.
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: No public OpenAPI/error schema found to assert this.

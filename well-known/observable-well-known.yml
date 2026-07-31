@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: probed
+host: https://observablehq.com
+notes: >-
+  Probed the standard /.well-known/ discovery surface on the marketing host and
+  the API host. No document returned 200; recorded for auditability. Absence is
+  valid data — no WellKnown/SecurityTxt pointer is emitted because nothing was
+  served. (api.observablehq.com returns 401 to unauthenticated requests.)
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 429
+  - path: /.well-known/ai-plugin.json
+    status: 429
+  - host: https://api.observablehq.com
+    path: /.well-known/security.txt
+    status: 401

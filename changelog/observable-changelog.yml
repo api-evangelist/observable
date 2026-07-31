@@ -1,0 +1,35 @@
+generated: '2026-07-20'
+method: searched
+source: https://observablehq.com/release-notes
+url: https://observablehq.com/release-notes
+scheme: date-based
+notes: >-
+  Observable publishes a dated release-notes feed for Observable Canvases and
+  Observable Notebooks. No semantic version numbers are used; entries are grouped
+  by week/date. Recent window captured below verbatim from the release-notes page.
+current_version: null
+entries:
+  - date: '2026-02-02'
+    breaking: false
+    highlights: Improved caching and snapshot system — faster analysis loading and clearer SQL error messages.
+  - date: '2026-01-19'
+    breaking: false
+    highlights: SQL nodes gain full AI integration directly within the node interface.
+  - date: '2026-01-13'
+    breaking: false
+    highlights: Edit mode pans to selected nodes; node titles moved outside nodes for readability.
+  - date: '2025-12-16'
+    breaking: false
+    highlights: New ridgeline charts added as a series chart type with customization options.
+  - date: '2025-11-24'
+    breaking: false
+    highlights: SQL nodes improved with syntax highlighting and table column autocomplete.
+  - date: '2025-11-10'
+    breaking: false
+    highlights: Dashboards and controls made available to all canvas users.
+  - date: '2025-11-03'
+    breaking: false
+    highlights: Radar charts introduced for comparing groups across quantitative variables.
+  - date: '2025-10-27'
+    breaking: false
+    highlights: Private canvases introduced; quick variable-type changes in tables.

@@ -1,0 +1,39 @@
+generated: '2026-07-20'
+method: searched
+source: https://observablehq.com/framework/getting-started
+name: observable
+description: >-
+  The Observable Framework command-line interface, distributed in the
+  @observablehq/framework npm package (Node.js 18+). Automates creating,
+  previewing, building, and deploying Observable Framework data apps and
+  dashboards, plus authentication against Observable Cloud.
+binary: observable
+runtime: node
+install:
+  - method: npx
+    command: npx "@observablehq/framework@latest" create
+  - method: npm
+    command: npm install @observablehq/framework
+docs: https://observablehq.com/framework/getting-started
+commands:
+  - name: create
+    summary: Scaffold a new Framework project from a template (prompts for location, title, sample files, dependencies, git).
+  - name: dev
+    summary: Start the local development/preview server with instant reload on save.
+  - name: build
+    summary: Build the static site into the dist directory for deployment.
+  - name: deploy
+    summary: Deploy the built app to Observable Cloud.
+  - name: login
+    summary: Authenticate the CLI against an Observable account/workspace.
+  - name: whoami
+    summary: Show the currently authenticated Observable account.
+  - name: convert
+    summary: Convert an existing Observable notebook into Framework source.
+  - name: help
+    summary: Display CLI usage and available commands.
+notes: >-
+  Command surface captured from the Framework documentation sidebar; `create`,
+  `dev`, and `build` are documented in the getting-started guide, and `deploy`,
+  `login`, `whoami`, and `convert` appear in the CLI navigation. Flags not
+  enumerated here to avoid fabrication.

@@ -1,7 +1,14 @@
 aid: observable
 name: Observable
-description: Observable is a company surfaced as a portfolio company of menlo-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Observable is a data-exploration, analysis, and visualization platform that helps
+  data analysts and their cross-functional stakeholders make sense of data. Its
+  products include Observable Canvases (a collaborative, canvas-based data-exploration
+  tool) and Observable Notebooks (reactive JavaScript notebooks for building
+  interactive data visualizations with code). Observable also creates and maintains
+  widely used open-source visualization tooling — D3.js, Observable Plot, Observable
+  Framework, Observable Inputs, and the reactive Observable runtime — published as
+  first-party npm packages. Backed by Menlo Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/observable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,31 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://github.com/observablehq.png
 tags:
 - Company
+- Data Visualization
+- Data Analysis
+- Business Intelligence
+- Notebooks
+- Dashboards
+- Developer Tools
+- JavaScript
+- D3
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,46 @@ maintainers:
 common:
 - type: Website
   url: https://observablehq.com
+- type: Documentation
+  url: https://observablehq.com/documentation/
+- type: GettingStarted
+  url: https://observablehq.com/framework/getting-started
+- type: Pricing
+  url: https://observablehq.com/pricing
+- type: Blog
+  url: https://observablehq.com/blog
+- type: Support
+  url: https://talk.observablehq.com/
+- type: GitHubOrganization
+  url: https://github.com/observablehq
+- type: TermsOfService
+  url: https://observablehq.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://observablehq.com/privacy-policy
+- type: ChangeLog
+  url: changelog/observable-changelog.yml
+- type: Packages
+  url: packages/observable-packages.yml
+- type: SDKs
+  url: packages/observable-packages.yml
+- type: CLI
+  url: cli/observable-cli.yml
+- type: LLMsTxt
+  url: llms/observable-llms.txt
+- type: Conformance
+  url: conformance/observable-conformance.yml
+- type: Compliance
+  url: https://observablehq.com/security
+- type: TrustCenter
+  url: security/observable-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/observable-vulnerability-disclosure.yml
+- type: Security
+  url: https://observablehq.com/responsible-disclosure
+- type: DomainSecurity
+  url: security/observable-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 9
+  pass: local-v1

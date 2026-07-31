@@ -1,0 +1,29 @@
+# Observable
+
+> Observable helps data analysts and their cross-functional stakeholders make sense of their data through powerful data exploration, analysis, and visualization tools. 
+
+> Key terms: Exploratory Data Analysis, Data Exploration, Data Visualization, Business Intelligence, Business Analytics, Collaborative Analytics, Visual Data Analysis, AI for Data Analysis, Data Analysis Collaboration, Data Wrangling, Data Munging, D3.js, Data Exploration Platform, Data Visualization Platform, Data Exploration Platform, AI for Business Intelligence, AI for Data Analysis, Data Analytics for Business, Data Analysis Platform
+
+> Use cases: Exploring Data, Collaborating on Data Analysis Projects, Analyzing Data, Using AI for Data Analysis, Building Custom Data Visualizations, Sharing Charts and Dashboards, Communicating Business Insights with Data Visualizations
+
+## Core Products:
+- Observable Canvases (https://observablehq.com/platform/canvases) Observable Canvases is a new canvas-based tool for data analysts and data teams who want to visually explore their data, build charts, and collaborate with stakeholders. 
+- Observable Notebooks (https://observablehq.com/platform/notebooks) Observable Notebooks are reactive JavaScript notebooks that are used by thousands of developers, data practitioners, and educators to build interactive data visualizations with code. 
+
+## Important Notes
+- Observable created and supports open-source data visualization tools, including D3.js (https://d3js.org/), Observable Plot (https://observablehq.com/plot/), and Observable Framework (https://observablehq.com/framework/). 
+
+## Docs
+- Observable Documentation (https://observablehq.com/documentation/) Comprehensive guides to Observable’s suite of data exploration, analysis, and visualization tools, including Observable Canvases and Observable Notebooks.
+
+## Popular Resources
+- Release Notes (https://observablehq.com/release-notes) Explore recent feature releases, product updates, and bug fixes for Observable Canvases and Observable Notebooks. 
+- Pricing (https://observablehq.com/pricing) Observable offers two subscription tiers for access to Observable Canvases. There is also a free entry point for solo creators of Observable Notebooks, and a Notebooks Pro tier for additional collaboration and workspace management features.
+- Customer Stories (https://observablehq.com/customer-stories) Real-world examples of how data developers and data teams across diverse teams and industries — including engineering, journalism, retail, geoscience, and more — use Observable to explore and analyze data, and build expressive visualizations and dashboards. 
+
+## Popular Blog Posts
+- Introducing Observable Canvases (https://observablehq.com/blog/introducing-canvases-early-access) The announcement blog post for Observable’s latest product, a collaborative whiteboard for data exploration and analysis called Observable Canvases. 
+- Visual Data Analysis (https://observablehq.com/blog/visual-data-analysis) An explainer on the advantages of a more visual data analysis process, so that data analysts and their stakeholders can expand opportunities for discovery, facilitate collaboration, and help uncover mistakes sooner.
+- Collaborative Data Analysis (https://observablehq.com/blog/collaborative-analytics) A call to action for more collaborative data analysis workflow, where stakeholders and data analysts can work side-by-side to unlock previously undiscovered insights, and work more efficiently as a result.  
+- How To Build Data Culture (https://observablehq.com/blog/how-to-build-data-culture) A blog post about the importance of building data skills across organizations, with a goal of increasing data literacy and developing a foundational data culture. 
+- Seven Ways To Design Better Dashboards (https://observablehq.com/blog/seven-ways-design-better-dashboards) A guide to developing more useful and intuitive dashboards for business intelligence and data analysis functions. 

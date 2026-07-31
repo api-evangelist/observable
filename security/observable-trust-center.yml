@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+url: https://observablehq.com/security
+certifications:
+  - SOC 2 Type 2
+auditor: Insight Assurance
+notes: >-
+  Observable publishes its security posture on a public security page rather than
+  a dedicated trust portal (no trust.observablehq.com found). SOC 2 Type 2 is the
+  only named certification stated; audited by Insight Assurance. Other controls
+  documented: TLS 1.2+ in transit, encryption at rest, RBAC in Pro workspaces,
+  regular penetration testing, self-hosted database-proxy option.
+evidence:
+  - source: https://observablehq.com/security
+    keywords: [soc 2 type 2, insight assurance, encryption at rest, penetration testing]

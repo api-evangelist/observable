@@ -1,0 +1,81 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/observablehq
+notes: >-
+  First-party open-source JavaScript/TypeScript libraries and tools published by
+  Observable to the npm registry under the @observablehq scope (plus the htl
+  package). These are client-side visualization, notebook-runtime, and static-site
+  build tools rather than REST API client SDKs (Observable does not publish a
+  documented public REST API client library). Versions omitted; the npm `latest`
+  dist-tag is authoritative.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@observablehq/framework"
+    url: https://www.npmjs.com/package/@observablehq/framework
+    install: npm install @observablehq/framework
+    official: true
+    description: Static site generator for data apps, dashboards, and reports; ships the `observable` CLI.
+  - language: javascript
+    registry: npm
+    name: "@observablehq/plot"
+    url: https://www.npmjs.com/package/@observablehq/plot
+    install: npm install @observablehq/plot
+    official: true
+    description: Concise API for exploratory data visualization implementing a layered grammar of graphics.
+  - language: javascript
+    registry: npm
+    name: "@observablehq/runtime"
+    url: https://www.npmjs.com/package/@observablehq/runtime
+    install: npm install @observablehq/runtime
+    official: true
+    description: The reactive dataflow runtime that powers Observable Notebooks.
+  - language: javascript
+    registry: npm
+    name: "@observablehq/stdlib"
+    url: https://www.npmjs.com/package/@observablehq/stdlib
+    install: npm install @observablehq/stdlib
+    official: true
+    description: The Observable standard library.
+  - language: javascript
+    registry: npm
+    name: "@observablehq/inputs"
+    url: https://www.npmjs.com/package/@observablehq/inputs
+    install: npm install @observablehq/inputs
+    official: true
+    description: User-interface input elements for interactive notebooks and apps.
+  - language: javascript
+    registry: npm
+    name: "@observablehq/inspector"
+    url: https://www.npmjs.com/package/@observablehq/inspector
+    install: npm install @observablehq/inspector
+    official: true
+    description: The Observable standard inspector for rendering values in the DOM.
+  - language: javascript
+    registry: npm
+    name: "@observablehq/parser"
+    url: https://www.npmjs.com/package/@observablehq/parser
+    install: npm install @observablehq/parser
+    official: true
+    description: The Observable JavaScript dialect parser.
+  - language: javascript
+    registry: npm
+    name: "@observablehq/database-proxy"
+    url: https://www.npmjs.com/package/@observablehq/database-proxy
+    install: npm install @observablehq/database-proxy
+    official: true
+    description: Local proxy for connecting Observable notebooks to private databases.
+  - language: javascript
+    registry: npm
+    name: "@observablehq/notebook-kit"
+    url: https://www.npmjs.com/package/@observablehq/notebook-kit
+    install: npm install @observablehq/notebook-kit
+    official: true
+    description: Command-line tool and library for building static sites from Observable notebooks.
+  - language: javascript
+    registry: npm
+    name: htl
+    url: https://www.npmjs.com/package/htl
+    install: npm install htl
+    official: true
+    description: Hypertext Literal — tagged template literals for safe HTML/SVG interpolation.
