@@ -1,12 +1,12 @@
 generated: '2026-07-20'
 method: probed
 host: https://observablehq.com
-notes: >-
-  Probed the standard /.well-known/ discovery surface on the marketing host and
-  the API host. No document returned 200; recorded for auditability. Absence is
-  valid data — no WellKnown/SecurityTxt pointer is emitted because nothing was
-  served. (api.observablehq.com returns 401 to unauthenticated requests.)
-documents:
+notes: Probed the standard /.well-known/ discovery surface on the marketing host and the API host. No
+  document returned 200; recorded for auditability. Absence is valid data — no WellKnown/SecurityTxt pointer
+  is emitted because nothing was served. (api.observablehq.com returns 401 to unauthenticated requests.)
+hosts:
+- host: https://observablehq.com
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
@@ -17,6 +17,10 @@ documents:
     status: 429
   - path: /.well-known/ai-plugin.json
     status: 429
-  - host: https://api.observablehq.com
-    path: /.well-known/security.txt
+  - path: /.well-known/security.txt
     status: 401
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
